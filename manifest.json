@@ -1,0 +1,27 @@
+{
+    "name": "Trading Analyzer",
+    "description": "An extension built by particleb for analyzing tradingview.com",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting", "declarativeContent", "tabs"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "/images/particleb_16.png",
+        "32": "/images/particleb_32.png",
+        "48": "/images/particleb_48.png",
+        "128": "/images/particleb_128.png"
+      },
+      "default_title": "Analyze the crypto currency!"
+    },
+    "icons": {
+        "16": "/images/particleb_16.png",
+        "32": "/images/particleb_32.png",
+        "48": "/images/particleb_48.png",
+        "128": "/images/particleb_128.png"
+    }
+  }
+  
